@@ -17,7 +17,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Simple middleware to display "DefangxFeathersjs"
 app.use('/', (req, res) => {
-  res.send('DefangxFeathersjs');
+  res.send('Ezema Anthony Sunday MLH Project');
 });
 
 module.exports = app;
